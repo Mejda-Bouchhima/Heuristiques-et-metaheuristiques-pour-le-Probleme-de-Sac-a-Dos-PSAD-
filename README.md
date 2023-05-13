@@ -7,7 +7,11 @@ Le code contient une procédure de lecture automatique des instances du PSAD et 
 Les approches implémentées dans ce projet sont :
 
 Heuristique constructive : Cette approche permet de construire une solution initiale S0 pour le PSAD.
+
 Heuristique de recherche locale : Cette approche utilise une structure de voisinage et une stratégie d'exploration du voisinage pour améliorer la solution initiale S0.
+
 Heuristique constructive randomisée : Cette approche utilise une construction aléatoire pour générer une solution initiale de manière aléatoire.
+
 Métaheuristique GRASP : Cette métaheuristique combine l'heuristique constructive randomisée avec la méthode de recherche locale proposée précédemment.
+
 Métaheuristique Tabou (simple) : Cette métaheuristique utilise une liste tabou pour éviter de revisiter des solutions déjà explorées.
